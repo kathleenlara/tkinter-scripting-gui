@@ -28,7 +28,7 @@ def read_query(con, query):
             
             
 # Write Oracle tables
-def oracle_insert(DM_FINAL_SHIPMENTS, tablename):
+def oracle_insert(FINAL_TABLE, tablename):
     conn_usr = u'Username'
     conn_pw = u'Password;
     dsnStr = cx_Oracle.makedsn(" ", " ", " ")
